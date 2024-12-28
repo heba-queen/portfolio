@@ -1,0 +1,137 @@
+.logo {
+
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.web:hover>i {
+    color: rgb(120, 159, 233);
+}
+
+.web:hover>h5 {
+    color: rgb(120, 159, 233);
+    font-weight: bold;
+}
+
+.blue_bg {
+    background: #8d8de2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7474f3, #ceddfa);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9f9fc2, #ceddfa);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.project:hover {
+    width: 10rem;
+    /* background-color: rgb(139, 153, 192); */
+    border-radius: 10%;
+    border: blue;
+    border-width: 2;
+    opacity: 0.5;
+}
+
+.project {
+    flex: 2;
+}
+
+.active {
+    color: skyblue !important;
+    border-bottom: 1px solid skyblue !important;
+}
+
+.error {
+    color: tomato;
+}
+
+.my-services>div {
+    flex-basis: 30%;
+}
+
+.hero-flex-container>div {
+    flex-basis: 50%;
+
+}
+
+
+
+.hero-flex-container>div>video {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.footer-main>div {
+    flex-basis: 29%;
+}
+
+.footer-main>section {
+    flex-basis: 29%;
+}
+
+@media (max-width: 970px) {
+    .hero-flex-container>div {
+
+        padding: 16px;
+    }
+
+    .hero-flex-container>div>img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+
+}
+
+@media (max-width: 768px) {
+    .hero-flex-container>div {
+        flex-basis: 50%;
+        padding: 16px;
+    }
+
+    .my-services>div {
+        flex-basis: 46%;
+    }
+
+    .nav-size {
+        padding: 16px !important;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .hero-flex-container {
+        flex-wrap: wrap-reverse;
+    }
+
+    .hero-flex-container>div {
+        flex-basis: 100%;
+        padding: 8px;
+    }
+
+    .my-services>div {
+        flex-basis: 100%;
+    }
+
+    .nav-size {
+        padding: 0 !important;
+    }
+
+    .footer-aboutme {
+        flex-basis: 100% !important;
+    }
+
+    .footer-contact {
+        flex-basis: 50% !important;
+        padding: 0 !important;
+    }
+
+}
+
+
+.scroll-top {
+    scroll-margin-top: 100px;
+}
